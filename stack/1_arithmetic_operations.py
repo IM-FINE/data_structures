@@ -6,12 +6,17 @@ from algorithms import stack
 
 class ArithOper(object):
     def __init__(self):
-        pass
+        s = stack.LinkedListStack()
 
-    def main(self):
-        pass
+    def middle2tail(self, **kwargs):
+        for i in express:
+            print(i)
+
+    def main(self, **kwargs):
+        middle2tail = self.middle2tail(express=express)
 
 
 if __name__ == '__main__':
+    express = '9+10'
     o = ArithOper()
-    o.main()
+    o.main(express=express)
